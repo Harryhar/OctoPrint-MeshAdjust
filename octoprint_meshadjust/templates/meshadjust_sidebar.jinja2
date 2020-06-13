@@ -1,39 +1,57 @@
 <div id="buttonGrid">
   <div class="buttonRow">
-    <button id="meshadjust7" class="btn" data-bind="click: function() {adjustMesh(0.0, 2.0, -0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjust8" class="btn icon-arrow-up" data-bind="click: function() {adjustMesh(1.0, 2.0, -0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjust9" class="btn" data-bind="click: function() {adjustMesh(2.0, 2.0, -0.01)}, enable: movementEnabled()"/>
-  </div>
-  <br>
-  <div class="buttonRow">
-    <button id="meshadjust4" class="btn icon-arrow-left" data-bind="click: function() {adjustMesh(0.0, 1.0, -0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjust5" class="btn" data-bind="click: function() {adjustMesh(1.0, 1.0, -0.01)}, enable: movementEnabled()">-</button>
-    <button id="meshadjust6" class="btn icon-arrow-right" data-bind="click: function() {adjustMesh(2.0, 1.0, -0.01)}, enable: movementEnabled()"/>
-  </div>
-  <br>
-  <div class="buttonRow">
-    <button id="meshadjust1" class="btn" data-bind="click: function() {adjustMesh(0.0, 0.0, -0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjust2" class="btn icon-arrow-down" data-bind="click: function() {adjustMesh(1.0, 0.0, -0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjust3" class="btn" data-bind="click: function() {adjustMesh(2.0, 0.0, -0.01)}, enable: movementEnabled()"/>
+    <button id="meshadjust21" class="btn" data-bind="click: function() {gotoMeshPoint(0.0, 4.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust22" class="btn" data-bind="click: function() {gotoMeshPoint(1.0, 4.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust23" class="btn icon-arrow-up" data-bind="click: function() {gotoMeshPoint(2.0, 4.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust24" class="btn" data-bind="click: function() {gotoMeshPoint(3.0, 4.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust25" class="btn" data-bind="click: function() {gotoMeshPoint(4.0, 4.0)}, enable: movementEnabled()"/>
   </div>
 </div>
 
 <div id="buttonGrid">
   <div class="buttonRow">
-    <button id="meshadjusta7" class="btn" data-bind="click: function() {adjustMesh(0.0, 2.0, 0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjusta8" class="btn icon-arrow-up" data-bind="click: function() {adjustMesh(1.0, 2.0, 0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjusta9" class="btn" data-bind="click: function() {adjustMesh(2.0, 2.0, 0.01)}, enable: movementEnabled()"/>
+    <button id="meshadjust16" class="btn" data-bind="click: function() {gotoMeshPoint(0.0, 3.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust17" class="btn" data-bind="click: function() {gotoMeshPoint(1.0, 3.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust18" class="btn" data-bind="click: function() {gotoMeshPoint(2.0, 3.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust19" class="btn" data-bind="click: function() {gotoMeshPoint(3.0, 3.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust20" class="btn" data-bind="click: function() {gotoMeshPoint(4.0, 3.0)}, enable: movementEnabled()"/>
   </div>
-  <br>
+</div>
+
+<div id="buttonGrid">
   <div class="buttonRow">
-    <button id="meshadjusta4" class="btn icon-arrow-left" data-bind="click: function() {adjustMesh(0.0, 1.0, 0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjusta5" class="btn" data-bind="click: function() {adjustMesh(1.0, 1.0, 0.01)}, enable: movementEnabled()">+</button>
-    <button id="meshadjusta6" class="btn icon-arrow-right" data-bind="click: function() {adjustMesh(2.0, 1.0, 0.01)}, enable: movementEnabled()"/>
+    <button id="meshadjust11" class="btn icon-arrow-left" data-bind="click: function() {gotoMeshPoint(0.0, 2.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust12" class="btn" data-bind="click: function() {gotoMeshPoint(1.0, 2.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust13" class="btn" data-bind="click: function() {gotoMeshPoint(2.0, 2.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust14" class="btn" data-bind="click: function() {gotoMeshPoint(3.0, 2.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust15" class="btn icon-arrow-right" data-bind="click: function() {gotoMeshPoint(4.0, 2.0)}, enable: movementEnabled()"/>
   </div>
-  <br>
+</div>
+
+<div id="buttonGrid">
   <div class="buttonRow">
-    <button id="meshadjusta1" class="btn" data-bind="click: function() {adjustMesh(0.0, 0.0, 0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjusta2" class="btn icon-arrow-down" data-bind="click: function() {adjustMesh(1.0, 0.0, 0.01)}, enable: movementEnabled()"/>
-    <button id="meshadjusta3" class="btn" data-bind="click: function() {adjustMesh(2.0, 0.0, 0.01)}, enable: movementEnabled()"/>
+    <button id="meshadjust6" class="btn" data-bind="click: function() {gotoMeshPoint(0.0, 1.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust7" class="btn" data-bind="click: function() {gotoMeshPoint(1.0, 1.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust8" class="btn" data-bind="click: function() {gotoMeshPoint(2.0, 1.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust9" class="btn" data-bind="click: function() {gotoMeshPoint(3.0, 1.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust10" class="btn" data-bind="click: function() {gotoMeshPoint(4.0, 1.0)}, enable: movementEnabled()"/>
+  </div>
+</div>
+
+<div id="buttonGrid">
+  <div class="buttonRow">
+    <button id="meshadjust1" class="btn" data-bind="click: function() {gotoMeshPoint(0.0, 0.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust2" class="btn" data-bind="click: function() {gotoMeshPoint(1.0, 0.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust3" class="btn icon-arrow-down" data-bind="click: function() {gotoMeshPoint(2.0, 0.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust4" class="btn" data-bind="click: function() {gotoMeshPoint(3.0, 0.0)}, enable: movementEnabled()"/>
+    <button id="meshadjust5" class="btn" data-bind="click: function() {gotoMeshPoint(4.0, 0.0)}, enable: movementEnabled()"/>
+  </div>
+</div>
+
+<br>
+<div id="buttonGrid">
+  <div class="buttonRow">
+    <button id="meshadjustmin" class="btn" data-bind="click: function() {adjustMeshPoint(-0.02);}, enable: movementEnabled()">- 0.02</button>
+    <button id="meshadjustplus" class="btn" data-bind="click: function() {adjustMeshPoint(0.02);}, enable: movementEnabled()">+ 0.02</button>
   </div>
 </div>
